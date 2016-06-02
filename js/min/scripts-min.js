@@ -1,0 +1,1 @@
+$(".cards").lightGallery({selector:"a"});

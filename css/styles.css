@@ -1,0 +1,50 @@
+/********************
+IMPORTS
+*******************/
+@import url('accessibility.css');
+@import url('card-styles.css');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/********************
+YOUR STYLES
+*******************/
+/*I also manged some styles of existing classes in the card-styles.css since it was easier than working the cascade from this side*/
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+.thumbnail {
+    background-color: #DAD0BE;
+}
+
+
+/*typography*/
+h2 {
+    font-family: 'Roboto', 'sans-serif';
+}
+p {
+    font-family: 'Open Sans';
+}
+.site-title {
+    font-family: 'Roboto';
+}
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 75em) {
+
+}
+
+/* Tablet */
+@media (min-width: 48em) {
+
+}
+
+/* Mobile */
+@media (min-width: 30em) {
+
+}
